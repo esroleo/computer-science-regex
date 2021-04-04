@@ -13,15 +13,13 @@ The regex expression we will be deconding is ```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Final Test](#Final Test)
+- [Credits](#Credits)
+- [Author](#Author)
 
 ## Regex Components
 
@@ -69,9 +67,6 @@ _ --> allow the usage of _ (underscore character) in the matching.
 - --> allow the usage of - (minus symbol) in the matching
 
 
-e.g (left side of the @) --> test1_ab.--  
-
-
 Right side of the @: ```[\da-z\.-\.-]+)\.([a-z\.]{2,6})$/```
 
 ```\da-z\.-\.-]+)``` or before .com scenarios for matching.
@@ -113,6 +108,17 @@ Is a way to tell the regex expression how many characters you want to match. In 
 
 ```/^([a-z0-9_\.-]+)``` --> We will match one character token or group.
 
+
+## Final Test
+
+
+
+## Credits
+
+https://www.javascripttutorial.net/regular-expression-anchors/#:~:text=Anchors%20have%20special%20meaning%20in,the%20beginning%20of%20the%20text.
+
+
+
 ## Author
 
 Tutorial created by Esteban Romero. 
@@ -120,10 +126,5 @@ Tutorial created by Esteban Romero.
 Gist link --> 
 
 Git Hub profile --> https://github.com/esroleo
-
-
-## Credits
-
-https://www.javascripttutorial.net/regular-expression-anchors/#:~:text=Anchors%20have%20special%20meaning%20in,the%20beginning%20of%20the%20text.
 
 

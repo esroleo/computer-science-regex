@@ -1,2 +1,2 @@
-# computer-science-regex
-Computer Science Regex Tutorial Challenge
+# computer-science-regex 
+Check out the gist File in the  repo for a regex tutorial on email validation!

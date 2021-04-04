@@ -17,9 +17,9 @@ The regex expression we will be deconding is ```/^([a-z0-9_\.-]+)@([\da-z\.-]+)\
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Final Test](#Final Test)
-- [Credits](#Credits)
-- [Author](#Author)
+- [Final Test](#final-test)
+- [Credits](#credits)
+- [Author](#author)
 
 ## Regex Components
 
